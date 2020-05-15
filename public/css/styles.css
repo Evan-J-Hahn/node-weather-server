@@ -91,6 +91,10 @@ button {
         font-size: 15vw;
         margin-bottom: 16px;
     }
+
+    .sub-content {
+        font-size: 5vw;
+    }
     
     .main-content {
         flex-grow: 1;
