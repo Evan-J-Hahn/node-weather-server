@@ -93,7 +93,7 @@ button {
     }
 
     .sub-content {
-        font-size: 5vw;
+        font-size: 3vw;
     }
     
     .main-content {
@@ -103,8 +103,6 @@ button {
     input {
         border: 1px solid #cccccc;
         padding: 8px;
-        width: 40vw;
-        height: 4vh;
     }
     
     button {
@@ -113,7 +111,5 @@ button {
         background: #888888;
         color: white;
         padding: 8px;
-        width: 10vw;
-        height: 6vh;
     }
 }
