@@ -104,7 +104,7 @@ button {
         border: 1px solid #cccccc;
         padding: 8px;
         font-size: 100%;
-        scale: 1.0;
+        zoom: none;
     }
     
     button {
