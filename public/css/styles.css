@@ -51,11 +51,11 @@ button {
     padding: 8px;
 }
 
-@media (max-width: 80rem) {
+@media (max-width: 50rem) {
     h1 {
         margin-top: 16px;
         margin-bottom: 48px;
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     .sub-content {
