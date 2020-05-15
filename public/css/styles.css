@@ -103,6 +103,7 @@ button {
     input {
         border: 1px solid #cccccc;
         padding: 8px;
+        font-size: 100%;
     }
     
     button {
@@ -111,5 +112,6 @@ button {
         background: #888888;
         color: white;
         padding: 8px;
+        font-size: 100%;
     }
 }
