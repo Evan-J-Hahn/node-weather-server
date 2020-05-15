@@ -11,11 +11,13 @@
 
     <body>
         <div class="main-content">
+            <h1>{{title}}</h1>
+
             {{>header}}
 
-            <form>
-                <input placeholder="Location">
-                <button>Search</button>
+            <form id="form">
+                <input type="text" id="city" placeholder="Location">
+                <button type="submit">Search</button>
             </form>
             
             <div class="sub-content">
