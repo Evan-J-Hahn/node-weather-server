@@ -11,9 +11,14 @@
 
     <body>
         <div class="main-content">
-            <h1>{{title}}</h1>
-
             {{>header}}
+
+            <div id="weather-widget">
+                <a class="weatherwidget-io" href="https://forecast7.com/en/44d56n123d26/corvallis/?unit=us" data-label_1="CORVALLIS" data-label_2="Oregon" data-icons="Climacons Animated" data-textcolor="#333333" data-suncolor="#ffdf00" data-mooncolor="#abb36d" data-cloudcolor="#656565" data-cloudfill="#a0a0a0" data-raincolor="#2000ff" >CORVALLIS Oregon</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+            </div>
 
             <form id="form">
                 <input placeholder="Location">

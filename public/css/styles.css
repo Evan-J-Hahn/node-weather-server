@@ -14,6 +14,12 @@ body {
     padding: 0 16px;
 }
 
+h1 {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-size: 60px;
+}
+
 footer {
     color: #666;
     border-top: 1px solid #eeeeee;
@@ -21,14 +27,12 @@ footer {
     padding: 16px 0;
 }
 
-h1 {
-    margin-top: 16px;
-    margin-bottom: 48px;
-    font-size: 2.5vw;
-}
-
 .main-content {
     flex-grow: 1;
+}
+
+.sub-content {
+    font-size: 36px;
 }
 
 input {
@@ -53,8 +57,6 @@ button {
 
 @media (max-width: 50rem) {
     h1 {
-        margin-top: 16px;
-        margin-bottom: 48px;
         font-size: 7vw;
     }
 
@@ -62,24 +64,11 @@ button {
         font-size: 5vw;
     }
     
-    .main-content {
-        flex-grow: 1;
-    }
-    
     input {
-        border: 1px solid #cccccc;
-        border-radius: 5px;
-        padding: 8px;
         font-size: 100%;
     }
     
     button {
-        cursor: pointer;
-        border: 1px solid #888888;
-        border-radius: 5px;
-        background: #888888;
-        color: white;
-        padding: 8px;
         font-size: 100%;
     }
 }
