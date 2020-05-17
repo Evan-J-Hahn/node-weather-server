@@ -30,9 +30,6 @@
                 </select>
 
                 <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-icons="Climacons Animated" data-textcolor="#333333" data-suncolor="#ffdf00" data-mooncolor="#858545" data-cloudcolor="#656565" data-cloudfill="#a0a0a0" data-raincolor="#2000ff" ></a>
-                <script>
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-                </script>
             </div>
 
             <form id="form">
@@ -49,6 +46,9 @@
 
         {{>footer}}
 
+        <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
         <script src="/js/app.js"></script>
     </body>
 
