@@ -3,6 +3,13 @@ const search = document.querySelector("input")
 const messageOne = document.querySelector("#message-1")
 const messageTwo = document.querySelector("#message-2")
 
+document.getElementById('switchLocation').addEventListener('change', function(){
+	var widget = document.querySelector('.weatherwidget-io')
+	widget.href = 'https://forecast7.com/en/'+this.value
+	widget.dataset.label_1 = this.options[this.selectedIndex].text
+	__weatherwidget_init()
+})
+
 weatherForm.addEventListener("submit", e => {
 	e.preventDefault()
 

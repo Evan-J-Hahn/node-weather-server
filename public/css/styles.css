@@ -27,6 +27,12 @@ footer {
     padding: 16px 0;
 }
 
+#switchLocation {
+    border: none;
+    background: none;
+    color: black;
+}
+
 .main-content {
     flex-grow: 1;
 }
