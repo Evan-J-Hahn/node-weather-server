@@ -66,6 +66,12 @@ button {
         font-size: 7vw;
     }
 
+    #switchLocation {
+        border: .5px;
+        background: none;
+        color: black;
+    }
+
     .sub-content {
         font-size: 5vw;
     }
