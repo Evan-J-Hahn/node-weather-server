@@ -1,12 +1,9 @@
-html {
-    background-image: url(../img/partly-cloudy.jpg);
+body {
+    background-image: url(../img/partly-cloudy.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-body {
     color: #333333;
     display: flex;
     flex-direction: column;
